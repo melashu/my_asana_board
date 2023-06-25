@@ -1,0 +1,143 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS (and SCSS, if configured) file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+header {
+  background-color: #fff;
+  padding: 25px 10px;
+  box-shadow: -5px 5px 25px 10px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+  list-style: none;
+}
+
+header ul {
+  display: flex;
+  justify-content: flex-end;
+  gap: 24px;
+}
+
+header a {
+  color: #024d71;
+  text-decoration: none;
+  padding: 8px;
+}
+
+header a:hover {
+  border: 2px #024d71 solid;
+  border-radius: 2rem;
+}
+
+.create {
+  background-color: #4f46e5;
+  color: #fff;
+  border-radius: 0.5rem;
+}
+
+.title-container {
+  padding: 15px;
+}
+
+.container {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin: 10px 15px;
+}
+
+.each-section {
+  background-color: #fff;
+  width: 30%;
+  padding: 10px 15px 15px 15px;
+  box-shadow: -5px 5px 25px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 2rem;
+  align-items: center;
+}
+
+.each-section:hover {
+  box-shadow: -5px 10px 34px 17px rgba(70, 45, 45, 0.1);
+}
+
+.each-section li,
+h2,
+h4,
+hr {
+  margin-bottom: 15px;
+}
+
+.each-section li::before {
+  content: ">";
+  border-radius: 100%;
+  background-color: rgb(120, 11, 198);
+  color: #fff;
+  font-weight: bolder;
+}
+
+.button-container {
+  display: flex;
+  gap: 24px;
+  padding: 10px;
+}
+
+.create-task {
+  text-decoration: dotted;
+}
+
+.btn-link {
+  background-color: #4f46e5;
+  color: #fff;
+  font-size: 16px;
+  padding: 8px;
+  border-radius: 1.5rem;
+  margin-bottom: 10px;
+  text-decoration: none !important;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-link:hover {
+  background-color: #4e46e5a6;
+}
+
+form {
+  margin: 54px auto;
+  width: 50%;
+  border: 1px solid #4f46e5;
+  padding: 25px;
+}
+
+input {
+  padding: 10px;
+  border-radius: 0.3rem;
+  border: 1px solid #4f46e5;
+  outline: none;
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+.notice {
+  color: #2fc24f;
+  text-align: center;
+}
+
+.alert {
+  color: #f38106;
+  text-align: center;
+}
