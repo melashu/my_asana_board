@@ -51,7 +51,9 @@ To get a local copy up and running, follow these steps.
 ### Prerequisites
 
 In order to run this project you need to:
-run `bunlder install`
+
+- Install ruby version 3.1.2 or above
+- Install Rails 
 
 ### Setup
 
@@ -60,6 +62,7 @@ Clone this repository to your desired folder:
 `remote add origin https://github.com/melashu/my_asana_board.git`
 
 cd `my_asana_board`
+run `bunlder install`
 
 ### Usage
 
@@ -70,7 +73,7 @@ Run
 ## 👥 Authors <a name="authors"></a>
  👤 Melashu Amare
 
-- GitHub: [@melashu](https://github.com/melashu)
+- GitHub: [@melashu](ttps://github.com/melashu)
 - Twitter: [@meshu102](https://twitter.com/meshu102)
 - LinkedIn: [Melashu Amare](https://www.linkedin.com/in/melashu-amare/)
 
