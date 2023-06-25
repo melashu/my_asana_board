@@ -1,0 +1,12 @@
+    <%= render "header"%>
+
+
+    <%= form_with url: "/project/section/task/update/#{@id}", method: :post do |form| %>
+    <div class='filed'>
+    <%= form.label :name, "Task Name" %> <br/><br/>
+    <%= form.text_field :name, required: true, placeholder: 'section name' %>
+  </div>
+    <%= form.submit "Update Section", class: 'btn-link' %>
+ <% end %>
+
+

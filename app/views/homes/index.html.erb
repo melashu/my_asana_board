@@ -1,7 +1,7 @@
 <%= render "header"%>
 
 <div class="title-container">
-  <h1>Welcome to your Asana board </h1>
+  <h3>Welcome to your Asana board </h3>
 </div>
 <p class="notice"><%=notice%></p>
 <p class="alert"><%=alert%></p>
@@ -9,19 +9,24 @@
 <div class="container">
 <%@body["data"].each do |section|%>
    <ul class="each-section">
-     <h2><%=section["name"]%></h2> 
+     <div class="top-section">
+      <h3><%=section["name"]%></h3>
+       <a href="#" class="create-task">+
+        <span>Add Task</span>
+       </a>
+
+     </div> 
      <hr/>
        <h4>Task List</h4>
      <hr/>
 
        <%if task_list(section["gid"])["data"].any?%>
            <%task_list(section["gid"])["data"].each do |task|%>
-            <li><%=task["name"]%> </li>
+            <li class="task-list"><p><%=task["name"]%> </p> <%= link_to "Update", edit_task_path(task['gid'])%> </li>
            <%end%>
        <%else%>
        <p class="no-task">No Task</p>
        <%end%>
-           <a href="#" class="create-task">Add Task</a>
          <div class="button-container">
             <%=link_to "Delete Section", destroy_section_path(section["gid"]), class: 'btn-link'%>
             <%=link_to "Update Section", edit_section_path(section["gid"]), class: 'btn-link'%>

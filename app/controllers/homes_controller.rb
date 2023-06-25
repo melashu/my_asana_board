@@ -10,8 +10,12 @@ class HomesController < ApplicationController
     @id = params[:id]
   end
 
-    def new
-    end
+  def new
+  end
+
+  def edit_task
+      @id = params[:id]
+  end
 
     def create
         name = params[:name]
@@ -43,7 +47,20 @@ class HomesController < ApplicationController
       if res.code == '200'
         redirect_to get_sections_path, notice: "Successfuly update your section to #{name}"
       else
-        redirect_to get_sections_path, alert: "#{res.body["errors"][0]["message"]}"
+        data = JSON.parse(res.body)
+        redirect_to get_sections_path, alert: "#{data["errors"][0]["message"]}"
       end
     end 
+
+    def update_section_task
+      id = params[:id]
+      name = params[:name]
+      res = update_task(id, name)
+      if res.code == '200'
+        redirect_to get_sections_path, notice: "Successfuly update your task to #{name}"
+      else
+        data = JSON.parse(res.body)
+        redirect_to get_sections_path, alert: "#{data["errors"][0]["message"]}"
+      end
+    end
 end

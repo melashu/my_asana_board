@@ -5,7 +5,7 @@ ruby "3.1.2"
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.0.5"
-gem 'api_for_asana', '~> 0.0.1'
+gem 'api_for_asana'
 
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
