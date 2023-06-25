@@ -21,21 +21,21 @@
 
 # 📖 My Asana Board <a name="about-project"></a>
 
-I built a personal app to manage my Asana board using the api_for_asana gem. The app allows me to create new sections, delete empty sections, update existing sections, and get a list of tasks.
+I built a personal app to manage my `Asana board` using the api_for_asana gem. The app allows me to create new sections, delete empty sections, update existing sections, and get a list of tasks.
  
 ## 🛠 Built With <a name="built-with"></a>
 
 - Ruby on Rails
 - api_for_asana gem
-  
+- 
 ## Gem source 
 
 - [api_for_asana on GitHub](https://github.com/melashu/api_for_asana)
 - [api_for_asana on rubygems](https://rubygems.org/gems/api_for_asana)
-- 
+  
 ## Key Features <a name="key-features"></a>
 
-> The key features of this app.
+ The key features of this app.
 
 - Create new section
 - Update existing section 
@@ -46,22 +46,22 @@ I built a personal app to manage my Asana board using the api_for_asana gem. The
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
 In order to run this project you need to:
 
-- Install ruby version 3.1.2 or above
-- Install Rails 
+- Install ruby version `3.1.2` or `above`
+- Install `Rails` 
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-`remote add origin https://github.com/melashu/my_asana_board.git`
+`git clone https://github.com/melashu/my_asana_board.git`
 
 cd `my_asana_board`
+
 run `bunlder install`
 
 ### Usage
@@ -72,7 +72,6 @@ Run
 
 ## 👥 Authors <a name="authors"></a>
  👤 Melashu Amare
-
 - GitHub: [@melashu](ttps://github.com/melashu)
 - Twitter: [@meshu102](https://twitter.com/meshu102)
 - LinkedIn: [Melashu Amare](https://www.linkedin.com/in/melashu-amare/)
