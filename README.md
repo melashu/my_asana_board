@@ -8,7 +8,6 @@
 - [📖 My Asana Board ](#-my-asana-board-)
   - [🛠 Built With ](#-built-with-)
   - [Gem source](#gem-source)
-  - [Tech Stack ](#tech-stack-)
   - [Key Features ](#key-features-)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
@@ -33,26 +32,7 @@ I built a personal app to manage my Asana board using the api_for_asana gem. The
 
 - [api_for_asana on GitHub](https://github.com/melashu/api_for_asana)
 - [api_for_asana on rubygems](https://rubygems.org/gems/api_for_asana)
-
-## Tech Stack <a name="tech-stack"></a>
-
-> Describe the tech stack and include only the relevant sections that apply to your project.
-
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li>HTML, and CSS</li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://rubyinstaller.org/">Ruby on Rails</a></li>
-  </ul>
-</details>
-</details>
-
+- 
 ## Key Features <a name="key-features"></a>
 
 > The key features of this app.
