@@ -6,6 +6,7 @@
 
 - [📗 Table of Contents](#-table-of-contents)
 - [📖 My Asana Board ](#-my-asana-board-)
+  - [Video Link](#video-link)
   - [🛠 Built With ](#-built-with-)
   - [Gem source](#gem-source)
   - [Key Features ](#key-features-)
@@ -22,12 +23,16 @@
 # 📖 My Asana Board <a name="about-project"></a>
 
 I built a personal app to manage my `Asana board` using the api_for_asana gem. The app allows me to create new sections, delete empty sections, update existing sections, and get a list of tasks.
+
+## Video Link
+
+- [Link](https://www.awesomescreenshot.com/video/18618650?key=98599ff27cd10eaac77deba2b127b3f8)
  
 ## 🛠 Built With <a name="built-with"></a>
 
 - Ruby on Rails
 - api_for_asana gem
-- 
+
 ## Gem source 
 
 - [api_for_asana on GitHub](https://github.com/melashu/api_for_asana)
